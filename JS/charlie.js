@@ -1,5 +1,6 @@
 var button = document.getElementById('button');
 var img = document.getElementById('image');
+var win = document.getElementById('WIN');
 
 var width = img.clientWidth;
 var height = img.clientHeight;
@@ -25,5 +26,5 @@ function clickButton(){
 
 	audio.play();
 
-	document.write("<H1>TEST BITCH</H1>");
+	win.style.visibility = "visible";
 }
