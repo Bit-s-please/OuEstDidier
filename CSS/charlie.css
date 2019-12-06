@@ -1,13 +1,1 @@
-img {
-	width: 100%;
-	height: 100%;
-	z-index: 900;
-}
 
-#WIN{
-	color:red;
-	font-size:3000%;
-	background-color: black;
-	position: absolute;
-	visibility: hidden;
-}

@@ -5,11 +5,22 @@ var win = document.getElementById('WIN');
 var width = img.clientWidth;
 var height = img.clientHeight;
 var audio = new Audio('../Ressources/Street Fighter II-You Win Perfect.mp3');
+var img = document.getElementById('image');
+var win = document.getElementById('1');
 
+img.style.width = "100%";
+img.style.height = "100%";
+
+win.style.color = "red";
+win.style.position = "absolute";
+win.style.visibility = "hidden";
+win.style.backgroundColor = "black";
+win.style.fontSize = "6vw";
+win.innerHTML = "CONGRATULATIONS YOU WIN <br /> Charlie s'approche de vous et vous chuchotte à l'oreille : le ";
+win.setAttribute('href', "../HTML/PAGEDARK.html");
 
 changeButtonPosition();
 
-var test = 0;
 window.addEventListener("resize", changeButtonPosition);
 button.addEventListener("click", clickButton);
 
@@ -30,9 +41,6 @@ function clickButton(){
 	win.style.top =window.innerHeight*0.10+"px";
 	win.style.left =window.innerWidth*0.10+"px";
 
-	console.log("C'est cadeau !!:");
-
 	var expires = "";
 	document.cookie = "TheCookie=1"+expires+"; path=/";
-	document.location.href="PAGEDARK.html";
 }
