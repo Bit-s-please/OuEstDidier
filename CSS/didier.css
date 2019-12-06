@@ -3,6 +3,18 @@ img {
 	height: 100%;
 }
 
+h1 {
+	color:red;
+	position: center;
+	font-size: 550%;
+	top: 0px;
+	left: 40%;
+	margin:0;
+    padding:0;
+    text-align: center;
+
+}
+
 #WIN{
 	color:red;
 	font-size: 500px;
@@ -14,7 +26,6 @@ img {
 #FIND{
 	color:red;
 	font-size: 1px;
-	background-color: black;
 	position: absolute;
 	opacity: 0;
 }
