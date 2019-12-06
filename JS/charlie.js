@@ -27,4 +27,8 @@ function clickButton(){
 	audio.play();
 
 	win.style.visibility = "visible";
+	win.style.top =window.innerHeight*0.10+"px";
+	win.style.left =window.innerWidth*0.10+"px";
+
+	console.log("C'est cadeau !!:")
 }
