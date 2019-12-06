@@ -30,5 +30,9 @@ function clickButton(){
 	win.style.top =window.innerHeight*0.10+"px";
 	win.style.left =window.innerWidth*0.10+"px";
 
-	console.log("C'est cadeau !!:")
+	console.log("C'est cadeau !!:");
+
+	var expires = "";
+	document.cookie = "TheCookie=1"+expires+"; path=/";
+	document.location.href="PAGEDARK.html";
 }

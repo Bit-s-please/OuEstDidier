@@ -76,7 +76,7 @@ console.log(step);
   		step = 5;
   		break;
   	default:
-  		console.log("Retiens bien : le")
+  		console.log("Retiens bien : est")
   }
   console.log(step);
 
