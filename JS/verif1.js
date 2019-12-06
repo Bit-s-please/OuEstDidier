@@ -1,10 +1,24 @@
-var nameEQ = "=";
-var ca = document.cookie.split(';');
-for(var i=0;i < ca.length;i++) {
-	var endstr=document.cookie.indexOf (";", offset);
-  	if (endstr==-1) endstr=document.cookie.length;
-  	if (unescape(document.cookie.substring(offset, endstr)) == "1"){
-		createCookie("TheCookie","",-1);
-		document.location.href="Nop.html";
-	}
+if(GetCookie("TheCookie") != "1"){
+	var expires = "";
+	document.cookie = "TheCookie=0"+expires+"; path=/";
+	document.location.href="../HTML/Nop.html";
+}
+
+function getCookieVal(offset) {
+  var endstr=document.cookie.indexOf (";", offset);
+  if (endstr==-1) endstr=document.cookie.length;
+  return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) {
+  var arg=name+"=";
+  var alen=arg.length;
+  var clen=document.cookie.length;
+  var i=0;
+  while (i<clen) {
+    var j=i+alen;
+    if (document.cookie.substring(i, j)==arg) return getCookieVal (j);
+    i=document.cookie.indexOf(" ",i)+1;
+    if (i==0) break;
+  }
+  return null;
 }

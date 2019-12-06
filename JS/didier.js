@@ -6,7 +6,7 @@ var width = img.clientWidth;
 var height = img.clientHeight;
 
 didier.innerHTML = "Didier"
-didier.setAttribute('href', "../HTML/charlie.html");
+didier.setAttribute('href', "../HTML/combinaison.html");
 didier.style.top = height+"px";
 didier.style.left = width+"px";
 titre.style.fontSize = "550%";

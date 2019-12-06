@@ -81,7 +81,7 @@ console.log(step);
   console.log(step);
 
   if(step == 0){
-    window
+    document.location.href="../HTML/RICKROLL.html";
   }
 
   if(step == 5){
