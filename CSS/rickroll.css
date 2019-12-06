@@ -9,3 +9,11 @@ video {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+h1 {
+	background-color : white;
+	border: 3px solid #000000;
+	text-align: center ;
+	margin-left: 22%;
+  margin-right: 22%;
+}
