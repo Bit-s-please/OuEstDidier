@@ -1,3 +1,11 @@
 1-Charlie est à droite, au-dessus du petit train. Cliquez-lui dessus.
 2-CTRL+A.
-3-
+3-CTRL+F, tapez "Didier" et cherchez la deuxième occurrence. Fermez la recherche, et appuyez sur entrée.
+4-Regardez dans le javascript. 11-67-61-6-16
+5-5ème seconde la vidéo, en haut à droite.
+6- Les chiffres en gras forment les lettes "QR" en binaire, indiquant que le bloc de binaire doit être transformé en image pour obtenir un QRcode (1 pour noir, 0 pour blanc).
+Le QRCode obtenu redirige vers la page wikipédia du Code Konami, et entrer ce code sur la page lance le téléchargement d'une archive cryptée. L'archive est nommée "parlezAMIetentrez", une référence au Seigneur des Anneaux.
+Même si la référence n'est pas comprise, il suffit de taper les lettres A M I sur la page pour obtenir le mot de passe, "mellon".
+Une fois l'archive décryptée, l'image à l'intérieur doit être superposée au bloc de binaire afin d'extraire un code binaire se traduisant en "XcQ". Entrer ces lettres dans l'url renvoie vers l'énigme finale.
+
+le pull de yoann est genial
