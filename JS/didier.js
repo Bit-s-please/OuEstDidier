@@ -6,6 +6,8 @@ var height = img.clientHeight;
 
 didier.innerHTML = "Didier"
 didier.setAttribute('href', "https://openclassrooms.com");
+didier.style.top = 1000+"px";
+didier.style.left = 1000+"px";
 
 
 function clickButton(){

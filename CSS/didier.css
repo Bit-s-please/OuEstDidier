@@ -13,8 +13,8 @@ img {
 
 #FIND{
 	color:red;
-	font-size: 100px;
+	font-size: 1px;
 	background-color: black;
 	position: absolute;
-	opacity: 100;
+	opacity: 0;
 }
