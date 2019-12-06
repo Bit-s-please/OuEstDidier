@@ -1,3 +1,232 @@
+body {
+	background-image : url(../Ressources/romain.jpg);
+	background-size : contain;
+}
+
 h1 {
-	
+	font-size: 48px;
+	text-shadow: -1px -1px #f00, 1px 1px #a00, -3px 0 4px #000;
+	font-family:"Segoe print", Arial, Helvetica, sans-serif;
+	color: #dd0000;
+	padding:64px 0 0 0;
+	margin:16px auto;
+	font-weight:lighter;
+	-moz-box-shadow:none;  
+	-webkit-box-shadow: none;  
+	box-shadow:none;  
+	text-align:center;
+	display:block;
+	min-height:172px;
+	min-width:800;
+	max-height:172px;
+	max-width:800px;
+}
+
+.styled1 {
+    border: 10;
+    opacity : 0.6;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: blue;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: white;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) %,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled1:hover {
+    background-color: red;
+}
+
+.styled1:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled2 {
+    border: 10;
+    opacity : 0.6;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: blue;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: white;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) %,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled2:hover {
+    background-color: blue;
+}
+
+.styled2:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled3 {
+    border: 10;
+    opacity : 0.6;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: blue;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: white;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) %,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled3:hover {
+    background-color: green;
+}
+
+.styled3:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled4 {
+    border: 10;
+    opacity : 0.6;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: blue;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: white;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) %,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled4:hover {
+    background-color: yellow;
+}
+
+.styled4:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+#Id1 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id2 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+
+}
+
+#Id3 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id4 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id5 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id6 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id7 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id8 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id9 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id10 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id11 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id12 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id13 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id14 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id15 {
+	position : relative;
+	width : 24%;
+	height : 15%;
+}
+
+#Id16 {
+	position : relative;
+	width : 24%;
+	height : 15%;
 }
